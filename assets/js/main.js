@@ -68,5 +68,8 @@ var parallaxInstance = new Parallax(scene);
 const divEl = document.querySelector('.hover__img');
 const icons = document.querySelector('.icons');
 divEl.addEventListener('mouseover', function () {
-	icons.classList.toggle('active');
+	icons.classList.add('active');
+})
+divEl.addEventListener('mouseout', function () {
+	icons.classList.remove('active');
 })
