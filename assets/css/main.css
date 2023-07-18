@@ -2961,3 +2961,15 @@ ul {
 .header-wrap__pic-right {
   margin-bottom: -3px;
 }
+
+@media (max-width: 412px) {
+  .arrow-block.first {
+    position: relative;
+    left: 15px;
+  }
+
+  .strategy {
+    margin-top: -35px;
+  }
+
+}
