@@ -73,3 +73,6 @@ divEl.addEventListener('mouseover', function () {
 divEl.addEventListener('mouseout', function () {
 	icons.classList.remove('active');
 })
+divEl.addEventListener('click', function () {
+	icons.classList.toggle('active');
+})
