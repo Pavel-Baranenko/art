@@ -2928,3 +2928,8 @@ ul {
     }
   }
 }
+
+.header-wrap__pic-left,
+.header-wrap__pic-right {
+  margin-bottom: -3px;
+}
