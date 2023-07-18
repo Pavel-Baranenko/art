@@ -2974,7 +2974,18 @@ ul {
 
 }
 
-.tactic__item-6 {
-  margin-right: auto;
-  width: auto;
+
+@media (min-width:1000px) {
+  .tactic__item-6 {
+    margin-right: 40px;
+    width: auto;
+  }
+
+  .tactic__item-5 {
+    margin-left: -20px;
+  }
+
+  .trade__international-img {
+    margin-top: -21px;
+  }
 }
