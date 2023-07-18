@@ -73,6 +73,20 @@ divEl.addEventListener('mouseover', function () {
 divEl.addEventListener('mouseout', function () {
 	icons.classList.remove('active');
 })
-divEl.addEventListener('click', function () {
-	icons.classList.toggle('active');
-})
+// divEl.addEventListener('click', function () {
+// 	icons.classList.remove('active-mob');
+// 	icons.classList.add('active-mob');
+// })
+
+
+
+var timeoutHandler = null;
+$(".hover__img").click(function () {
+	$(".icons").addClass('active-mob');
+	if (timeoutHandler) clearTimeout(timeoutHandler);
+
+	timeoutHandler = setTimeout(function () {
+		$(".icons").removeClass('active-mob');
+
+	}, 800);
+});

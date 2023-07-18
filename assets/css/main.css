@@ -2767,6 +2767,34 @@ ul {
 }
 
 @media (max-width:413px) {
+  .icons.active-mob .be {
+    animation-name: be;
+  }
+
+  .icons.active-mob .tt {
+    animation-name: tt;
+  }
+
+  .icons.active-mob .tw {
+    animation-name: tw;
+  }
+
+  .icons.active-mob .red {
+    animation-name: red;
+  }
+
+  .icons.active-mob .vk {
+    animation-name: vk;
+  }
+
+  .icons.active-mob .tg {
+    animation-name: tg;
+  }
+
+  .icons.active-mob .lin {
+    animation-name: lin;
+  }
+
   .be {
     top: 11%;
     right: 37%;
