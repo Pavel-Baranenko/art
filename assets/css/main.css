@@ -2405,7 +2405,7 @@ ul {
 @media (max-width: 412px) {
   .header-wrap__pic-main {
     position: relative;
-    width: 51%;
+    width: 75%;
     left: 16px;
     bottom: -30px;
   }
